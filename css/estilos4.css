@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Calibri light";
+}
+
+.contenedor{
+    background: rgb(4, 185, 4);
+    border-style: solid;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("../img/barca.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(13, 16, 206);
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: rgb(2, 180, 250);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
